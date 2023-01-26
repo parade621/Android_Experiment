@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nv"
+    app:startDestination="@id/fragment_vertical">
+
+    <fragment
+        android:id="@+id/fragment_vertical"
+        android:name="com.parade621.dogglers.ui.view.VerticalFragment"
+        android:label="@string/vertical"
+        tools:layout="@layout/fragment_vertical" />
+    <fragment
+        android:id="@+id/fragment_horizontal"
+        android:name="com.parade621.dogglers.ui.view.HorizontalFragment"
+        android:label="@string/horizontal"
+        tools:layout="@layout/fragment_horizontal" />
+    <fragment
+        android:id="@+id/fragment_grid"
+        android:name="com.parade621.dogglers.ui.view.GridFragment"
+        android:label="@string/grid"
+        tools:layout="@layout/fragment_grid" />
+</navigation>
