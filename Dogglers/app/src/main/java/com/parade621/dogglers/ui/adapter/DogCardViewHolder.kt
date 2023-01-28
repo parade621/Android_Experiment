@@ -8,7 +8,6 @@ import com.parade621.dogglers.model.Dog
 class DogCardViewHolder (
     private val binding: RvItemBinding
         ):RecyclerView.ViewHolder(binding.root){
-
             fun bind(dog: Dog){
                 itemView.apply {
                     binding.rvImageView.setImageResource(dog.image)
